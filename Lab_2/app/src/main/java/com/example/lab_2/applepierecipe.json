@@ -1,0 +1,65 @@
+{
+  "recipe": {
+    "title": "Apple Pie",
+    "ingredients": [
+      {
+        "part": "Crust",
+        "items": [
+          {
+            "name": "Pillsbury™ Pie Crusts (2 Count)",
+            "amount": "1 box (14.1 oz)",
+            "instructions": "softened as directed on box"
+          }
+        ]
+      },
+      {
+        "part": "Filling",
+        "items": [
+          {
+            "name": "sliced, peeled apples",
+            "amount": "6 cups",
+            "notes": "(6 medium)"
+          },
+          {
+            "name": "sugar",
+            "amount": "3/4 cup"
+          },
+          {
+            "name": "all-purpose flour",
+            "amount": "2 tablespoons"
+          },
+          {
+            "name": "ground cinnamon",
+            "amount": "3/4 teaspoon"
+          },
+          {
+            "name": "salt",
+            "amount": "1/4 teaspoon"
+          },
+          {
+            "name": "ground nutmeg",
+            "amount": "1/8 teaspoon"
+          },
+          {
+            "name": "lemon juice",
+            "amount": "1 tablespoon"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "number": 1,
+        "instruction": "Heat oven to 425°F. Place 1 pie crust in ungreased 9-inch glass pie plate. Press firmly against side and bottom."
+      },
+      {
+        "number": 2,
+        "instruction": "In large bowl, gently mix filling ingredients; spoon into crust-lined pie plate. Top with second crust. Wrap excess top crust under bottom crust edge, pressing edges together to seal; flute. Cut slits or shapes in several places in top crust."
+      },
+      {
+        "number": 3,
+        "instruction": "Bake 40 to 45 minutes or until apples are tender and crust is golden brown. Cover edge of crust with 2- to 3-inch wide strips of foil after first 15 to 20 minutes of baking to prevent excessive browning. Cool on cooling rack at least 2 hours before serving."
+      }
+    ]
+  }
+}
