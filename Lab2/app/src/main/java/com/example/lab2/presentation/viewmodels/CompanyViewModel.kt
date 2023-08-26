@@ -15,6 +15,7 @@ enum class AppState {
 class CompanyViewModel: ViewModel() {
 
     private val companyService = CompanyService()
+    private val documentId: String = "7CkcLLQKJ0nZ7GUf9bCO"
 
     private val _companyData = MutableLiveData<List<Company>?>()
     private val _appState = MutableLiveData<AppState>()
@@ -23,12 +24,11 @@ class CompanyViewModel: ViewModel() {
     val appState: LiveData<AppState> = _appState
 
     init {
-        loadCompanyData("7CkcLLQKJ0nZ7GUf9bCO")
+        loadCompanyData()
     }
 
-    private fun loadCompanyData(documentId: String) {
+    private fun loadCompanyData() {
         _appState.value = AppState.LOADING
-
         companyService.fetchCompanyData(documentId)
             .addOnSuccessListener { companies ->
                 if (companies != null) {

@@ -1,10 +1,6 @@
 package com.example.lab2.domain.models.network
 
 data class Company (
-    val companies: List<CompanyElement>
-)
-
-data class CompanyElement (
     val id: Long,
     val title: String,
     val city: String,

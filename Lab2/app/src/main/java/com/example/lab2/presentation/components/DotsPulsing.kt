@@ -23,14 +23,14 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun DotsPulsing() {
 
-    val delayUnit = 150
+    val delayUnit = 400
 
     @Composable
     fun Dot(
         scale: Float
     ) = Spacer(
         Modifier
-            .size(15.dp)
+            .size(12.dp)
             .scale(scale)
             .background(
                 color = MaterialTheme.colorScheme.primary,

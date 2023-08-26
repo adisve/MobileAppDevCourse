@@ -1,11 +1,9 @@
 package com.example.lab2.presentation.components
 
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
+import CompaniesScrollView
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
-import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.lab2.presentation.viewmodels.AppState
 import com.example.lab2.presentation.viewmodels.CompanyViewModel
